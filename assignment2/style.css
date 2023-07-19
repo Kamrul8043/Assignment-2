@@ -427,7 +427,7 @@ footer {
     .banner-img {
         width: 80%;
     }
-
+     
     .main-image {
         width: 100%;
         margin-left: 0;
@@ -439,6 +439,7 @@ footer {
      }
 
     .play-start {
+        flex-direction: column-reverse;
         width: 100%;
         margin-top: 1400px;
     }
