@@ -325,7 +325,7 @@ nav {
 footer {
     background: #0B0223;
     width: auto;
-    height: 600px;
+    height: 500px;
     align-items: center;
 }
 
@@ -360,8 +360,8 @@ footer {
     
     display: flex;
     justify-content: space-between;
-    width: 40%;
-    margin: 0 auto 40px;
+    width: 30%;
+    margin: 0 auto 30px;
     margin-top:50px ;
     color:white;
     
@@ -370,6 +370,24 @@ footer {
     font-size: 45px;
     color: white;
 }
+.footer-condition{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:  rgba(255, 255, 255, 0.60);
+    gap: 30px;
+    margin-top: 50px;
+    
+}
+.footer-end{
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.60);
+    margin-top: 30px;
+}
+
 
 /* responsive section */
 @media screen and (max-width:576px) {
@@ -383,7 +401,8 @@ footer {
     .play-start,
     .play-section,
     .play-image,
-    .active {
+    .active,
+    .footer{
         flex-direction: column;
     }
 
@@ -423,5 +442,8 @@ footer {
     .active {
         grid-template-columns: repeat(2, 1fr);
         width: 40%;
+    }
+    .footer{
+        width: 50%;
     }
 }
