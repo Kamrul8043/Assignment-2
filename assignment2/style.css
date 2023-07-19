@@ -222,6 +222,7 @@ nav {
 }
 .main-image img:hover{
     border: 2px solid gray;
+    border-radius: 17px;
     color: green;
 }
 
